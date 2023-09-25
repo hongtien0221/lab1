@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lab1</title>
+
+    <style>
+        *{
+           padding:0;
+           margin:0;
+           box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, SansSerif;
+        }
+        table{
+              border-collapse: collapse;
+              width: 100%;
+        }
+        table,th,td{
+            border: 1px solid black;
+        }
+        td, th{
+            text-align: left;
+            padding:8px;
+        }
+        .header{
+             background-color: gainsboro;
+             height: 120px;
+        }
+        .container{
+            display: flex;
+        }
+        .left_side{
+            flex:1;
+        }
+        .right_side{
+            flex:1;
+        }
+        .footer{
+            background-color: gainsboro;
+            height: 120px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <tr class="header">
+            <th colspan="2"> PROCESS LAYOUT EXAMPLE </th>
+        </tr>
+        <tr class="container">
+            <td class="left_side">
+                <strong> Main menu</strong>
+                <ul>
+                     <li>Link one</li>
+                     <li>Link two</li>
+                     <li>Link three</li>
+                     <li>Link four</li>
+                </ul>
+            </td>
+            <td class="right_side">
+                <p>This is an example layout using the tables</p>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="footer" colspan="2">
+                 www.Example of layout using tables.com
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
